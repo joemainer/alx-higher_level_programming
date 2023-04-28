@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+"""Defines a class checking function."""
+	def is_kind_of_class):
+	
