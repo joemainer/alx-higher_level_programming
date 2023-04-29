@@ -1,6 +1,9 @@
-#!/usr/bin/env bash
-"""Defines a class checking function."""
+#!/usr/bin/python3
+"""
+Contains the class BaseGeometry
+"""
+
 
 class BaseGeometry:
-    """Represent base geometry."""
+    """An empty class"""
     pass

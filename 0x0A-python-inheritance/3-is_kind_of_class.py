@@ -1,16 +1,9 @@
-#!/usr/bin/env bash
-"""Defines a class checking function."""
+#!/usr/bin/python3
+"""
+Contains the is_kind_of_class function
+"""
 
-def is_kind_of _class(obj, a_class):
-    """Check if an object is an instance or inherited instance of a class
 
-    Args:
-        obj (any): The object is to check.
-        a_class (type): The class match the type ofobj to.
-    Returns:
-        If obj is an instance or inherited instance of a_class - True.
-        Oherwise - False.
-    """
-    If isinstance(obj, a_class):
-        return True
-    return False
+def is_kind_of_class(obj, a_class):
+    """True if obj is an instance or inherited from a_class, else False"""
+    return (isinstance(obj, a_class))

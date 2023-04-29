@@ -1,8 +1,12 @@
-#!/usr/bin/env bash
-"""Defines a class checking function."""
-class BaseGeomtry:
-    """Represent Base Geometry"""
+#!/usr/bin/python3
+"""
+Contains the class BaseGeometry
+"""
+
+
+class BaseGeometry:
+    """A class with public attribute area"""
     def area(self):
-    """"Not implemented."""
-    raise Exeption("area() is not implemented")
+        """raises an exception when called"""
+        raise Exception("area() is not implemented")
 

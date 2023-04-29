@@ -1,19 +1,16 @@
-#!/usr/bin/env bash
-"""Defines a class checking function."""
-basegeometry = __Import__('7-base_geometry').BaseGeometry
+#!/usr/bin/python3
+"""
+Contains the class BaseGeometry and subclass Rectangle
+"""
 
-class Rectangle(Basegeometry):
-    """Represent a rectangle using BaseGeometry."""
+BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
+
+class Rectangle(BaseGeometry):
+    """A representation of a rectangle"""
     def __init__(self, width, height):
-        """Initialise a new rectangle.
-
-        Args:
-            width )int): The width of the new rectangle.
-            height (int): The height of the new rectangle.
-        """
-
-    self.integer_validator("width", width)
-    self.__width = width
-    self.integer_validtor("height", height)
-    self.__height = height
+        """instantiation of the rectangle"""
+        self.integer_validator("width", width)
+        self.__width = width
+        self.integer_validator("height", height)
+        self.__height = height
