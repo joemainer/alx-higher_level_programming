@@ -1,4 +1,3 @@
-@@ -0,0 +1,3 @@
---  lists all the tables of a database
-
-SHOW TABLE;
+@@ -0,0 +1,2 @@
+-- Lists all tables of a database.
+SHOW TABLES
